@@ -49,4 +49,10 @@ for (let i = 1; i <= conversion; i++){
     console.log("portion ", i ,"/",conversion, "preparation de ton ",nomplat);
 }
 
+console.log("");
 
+// affichage de la caisse
+
+console.log("======= CAISSE ======");
+console.log("le total a payer est : ", totalcalculer);
+console.log("le montant versé est : ", montantverse);
