@@ -7,7 +7,7 @@ let nomplat = "";
 let prixunitaire = 0;
 
 // conversion de la quantite en nombre
-let conversion = nombre ( quantite);
+let conversion = Number (quantite);
 
 // determination des prix avec la contion if 
 if(codeplat === 1){
@@ -31,7 +31,7 @@ function caculertotal(prixunitaire, quantite){
 
 // appel de la fonction
 
-let totalcalculer = calculertotal(prixunitaire,conversion);
+let totalcalculer = caculertotal(prixunitaire,conversion);
 
 // affichage des resultats
 
@@ -39,3 +39,14 @@ console.log("==== RECAPITULATIF DE LA COMMANDE DE:", client);
 console.log("le plat choisi est : ", nomplat);
 console.log("le prix unitaire est :", prixunitaire);
 console.log("la quantite est : ", conversion);
+
+// declatation de la boucle
+
+console.log("")
+console.log("==== preparation des portions ====");
+
+for (let i = 1; i <= conversion; i++){
+    console.log("portion ", i ,"/",conversion, "preparation de ton ",nomplat);
+}
+
+
