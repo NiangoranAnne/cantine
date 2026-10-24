@@ -28,3 +28,7 @@ if(codeplat === 1){
 function caculertotal(prixunitaire, quantite){
     return (prixunitaire*quantite);
 }
+
+// appel de la fonction
+
+let totalcalculer = calculertotal(prixunitaire,conversion);
