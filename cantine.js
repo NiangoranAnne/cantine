@@ -22,3 +22,9 @@ if(codeplat === 1){
 }else{
     console.log("code plat invalide");
 }
+
+// declarion de la fonction
+
+function caculertotal(prixunitaire, quantite){
+    return (prixunitaire*quantite);
+}
