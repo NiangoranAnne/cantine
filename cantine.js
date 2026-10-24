@@ -32,3 +32,10 @@ function caculertotal(prixunitaire, quantite){
 // appel de la fonction
 
 let totalcalculer = calculertotal(prixunitaire,conversion);
+
+// affichage des resultats
+
+console.log("==== RECAPITULATIF DE LA COMMANDE DE:", client);
+console.log("le plat choisi est : ", nomplat);
+console.log("le prix unitaire est :", prixunitaire);
+console.log("la quantite est : ", conversion);
