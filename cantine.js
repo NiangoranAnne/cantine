@@ -5,6 +5,8 @@ let quantite = "3";
 let montantverse = 5000;
 let nomplat = "";
 let prixunitaire = 0;
+let monnaie = 0;
+let manquant = 0;
 
 // conversion de la quantite en nombre
 let conversion = Number (quantite);
@@ -35,7 +37,7 @@ let totalcalculer = caculertotal(prixunitaire,conversion);
 
 // affichage des resultats
 
-console.log("==== RECAPITULATIF DE LA COMMANDE DE:", client);
+console.log("==== RECAPITULATIF DE LA COMMANDE DE:", client ,"=======");
 console.log("le plat choisi est : ", nomplat);
 console.log("le prix unitaire est :", prixunitaire);
 console.log("la quantite est : ", conversion);
@@ -56,3 +58,15 @@ console.log("");
 console.log("======= CAISSE ======");
 console.log("le total a payer est : ", totalcalculer);
 console.log("le montant versé est : ", montantverse);
+
+// condition pour la monnaie ou le manque 
+
+if (montantverse >= totalcalculer){
+    monnaie = montantverse - totalcalculer;
+    console.log("le paiement est accepté monnaie à rendre : ", monnaie);
+}else{
+    manquant = totalcalculer - montantverse
+    console.log("nom paiement insufisant il manque : ", manquant);
+}
+
+console.log("===============================================");
