@@ -1,0 +1,1 @@
+Niangoran ANNE. Ce programme presente le menu d'une cantine en fonction de ses trois differentes modalités.

@@ -1,0 +1,62 @@
+============================================
+code_du_plat = 1
+quantite 3
+montant verse = 5000 fcfa
+
+==== RECAPITULATIF DE LA COMMANDE DE: Awa =======
+le plat choisi est :  Attieke-poisson
+le prix unitaire est : 1500
+la quantite est :  3
+
+==== preparation des portions ====
+portion  1 / 3 preparation de ton  Attieke-poisson
+portion  2 / 3 preparation de ton  Attieke-poisson
+portion  3 / 3 preparation de ton  Attieke-poisson
+
+======= CAISSE ======
+le total a payer est :  4500
+le montant versé est :  5000
+le paiement est accepté monnaie à rendre :  500
+===============================================
+===============================================
+
+code_du_plat = 2
+quantite 2
+montant verse = 3000 fcfa
+
+==== RECAPITULATIF DE LA COMMANDE DE: Awa ======
+le plat choisi est :  Riz-poulet
+le prix unitaire est : 2000
+la quantite est :  2
+
+==== preparation des portions ====
+portion  1 / 2 preparation de ton  Riz-poulet
+portion  2 / 2 preparation de ton  Riz-poulet
+
+======= CAISSE ======
+le total a payer est :  4000
+le montant versé est :  3000
+non paiement insufisant il manque :  1000
+===============================================
+
+===============================================
+code_du_plat = 3
+quantite = 4
+montant verse = 4000 fcfa
+
+==== RECAPITULATIF DE LA COMMANDE DE: Awa ======
+le plat choisi est :  Alloco
+le prix unitaire est : 1000
+la quantite est :  4
+
+==== preparation des portions ====
+portion  1 / 4 preparation de ton  Alloco
+portion  2 / 4 preparation de ton  Alloco
+portion  3 / 4 preparation de ton  Alloco
+portion  4 / 4 preparation de ton  Alloco
+
+======= CAISSE ======
+le total a payer est :  4000
+le montant versé est :  4000
+le paiement est accepté monnaie à rendre :  0
+===============================================
