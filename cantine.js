@@ -1,32 +1,60 @@
 // declaration des variables
 let client = "Awa";
-let codeplat = 3;
-let quantite = "4";
+let codeplat = 1;
+let quantite = "-3";
 let montantverse = 4000;
 let nomplat = "";
 let prixunitaire = 0;
 let monnaie = 0;
 let manquant = 0;
-
 // conversion de la quantite en nombre
 let conversion = Number (quantite);
+if(codeplat<1 || codeplat>3 || !Number.isInteger(codeplat)){
+    console.log("le code est invalide")
+    }
+else if(!Number.isInteger(conversion) || conversion<0){
+    console.log("Quantite invalide, veuillez entrer un entier")
+
+}
+else{ 
+
+
+
+
 
 // determination des prix avec la contion if 
-if(codeplat === 1){
+// if(codeplat === 1){
+//     nomplat = "Attieke-poisson";
+//     prixunitaire = 1500;
+// } else if(codeplat === 2){
+//     nomplat ="Riz-poulet";
+//     prixunitaire = 2000;
+// } else if(codeplat === 3){
+//     nomplat = "Alloco";
+//     prixunitaire = 1000;
+// }else{
+//     console.log("code plat invalide");
+// }
+
+// determination des prix avec switch
+switch ( codeplat){
+    case 1:
     nomplat = "Attieke-poisson";
     prixunitaire = 1500;
-} else if(codeplat === 2){
+    break;
+    case 2:
     nomplat ="Riz-poulet";
     prixunitaire = 2000;
-} else if(codeplat === 3){
+    break;
+    case 3:
     nomplat = "Alloco";
     prixunitaire = 1000;
-}else{
-    console.log("code plat invalide");
+    break;
+    default:
+   
 }
 
 // declarion de la fonction
-
 function caculertotal(prixunitaire, quantite){
     return (prixunitaire*quantite);
 }
@@ -70,3 +98,4 @@ if (montantverse >= totalcalculer){
 }
 
 console.log("===============================================");
+}
